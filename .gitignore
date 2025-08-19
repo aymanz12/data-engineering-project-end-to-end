@@ -1,8 +1,13 @@
-# Ignore Airflow logs and system files
+# MinIO system files
+minio_data/.minio.sys/
+minio_data/sales/raw/sales.csv/*
+
+# Airflow logs
 airflow-data/logs/
 airflow-data/*.pid
 airflow-data/*.sock
-# Ignore Python temp files
+
+# Python temp files
 __pycache__/
 *.pyc
 *.pyo
