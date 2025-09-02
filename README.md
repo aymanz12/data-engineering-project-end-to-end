@@ -44,10 +44,12 @@ This project implements an **end-to-end data engineering pipeline** for processi
 ├── docs/ # Documentation and diagrams
 │ └── pipeline_diagram.png
 
-yaml
+ruby
 Copier le code
 
-> **Note:** `minio_data/` is ignored in the repository via `.gitignore`. Only necessary files and GitHub-hosted CSV are included.
+> **Note:**  
+> - `minio_data/` is ignored in the repository via `.gitignore`.  
+> - Only necessary files and GitHub-hosted CSV are included.
 
 ---
 
@@ -61,5 +63,3 @@ This project demonstrates a **complete data engineering workflow**:
 4. **Views for BI:** PostgreSQL views simplify reporting queries for Power BI.  
 5. **Visualization:** Power BI dashboards visualize KPIs such as sales trends, top products, and customer metrics.  
 6. **Containerization:** Docker ensures all components can be deployed consistently across environments.
-
----
