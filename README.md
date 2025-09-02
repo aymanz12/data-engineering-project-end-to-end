@@ -26,6 +26,8 @@ This project implements an **end-to-end data engineering pipeline** for processi
 
 ## 2️⃣ Folder Structure
 
+## 2️⃣ Folder Structure
+
 .
 ├── docker-compose.yaml # Docker environment configuration
 ├── Dockerfile # Container setup
